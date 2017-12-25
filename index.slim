@@ -1,0 +1,24 @@
+doctype html
+html
+  head
+    title twtw at github
+    meta name="viewport" content="width=device-width, initial-scale=1"
+    -# link rel="stylesheet" href="/lib/jquery-mobile-bower/css/jquery.mobile-1.4.5.min.css"
+    -# script type="text/javascript" src="/lib/jquery/jquery.min.js"
+    -# script type="text/javascript" src="/lib/jquery-mobile-bower/js/jquery.mobile-1.4.5.min.js"
+    -#link rel="stylesheet" href="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css"
+    script type="text/javascript" src="//code.jquery.com/jquery-1.11.1.min.js"
+    script type="text/javascript" src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"
+    script type="text/javascript" src="//https://raw.github.com/shyiko/lorem/master/src/library/lorem.js"
+  body
+    div data-role="page"
+      div data-role="header"
+        h1.lorem_w
+      div data-role="content"
+        p.lorem_p3
+      div data-role="footer"
+        a href="http://demos.jquerymobile.com/1.2.1/docs/about/getting-started.html" Quick start guide
+    javascript:
+      (function($){
+        $('body').ipsum();
+      )(jQuery));
